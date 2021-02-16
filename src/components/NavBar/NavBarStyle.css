@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Reglo';
+    /*a name to be used later*/
+    src: url('../../fonts/reglo/Reglo-Bold.ttf');
+    /*URL to font*/
+}
+
+.side-bar {
+    width: 20%;
+    margin: 20px 10px 20px 20px;
+    background-color: #fff;
+    font-family: 'Reglo';
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 30px rgba(85, 85, 85, 0.205);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.side-bar__items {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.side-bar__setting {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-bar__item-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+}
+
+.nav-bar__btn {
+    color: black;
+    width: 70%;
+    height: 50px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+/* Profile-Btn-Nav */
+
+.nav-bar__btn--profile {
+    color: #33019F;
+    transition: all 0.3s ease-out;
+}
+
+.nav-bar__btn--profile-active {
+    color: #33019F;
+    background-color: #B390FF;
+    box-shadow: 0px 0px 30px #B390FF;
+}
+
+.nav-bar__btn--profile:hover {
+    transition: all 0.3s ease-in;
+    background-color: #B390FF;
+    box-shadow: 0px 0px 30px #B390FF;
+}
+
+
+/* Explore-Btn-Nav */
+
+.nav-bar__btn--explore {
+    transition: all 0.3s ease-out;
+    color: #00BDE7;
+}
+
+.nav-bar__btn--explore-active {
+    color: #00BDE7;
+    background-color: #B0F1FF;
+    box-shadow: 0px 0px 30px #81E9FF;
+}
+
+.nav-bar__btn--explore:hover {
+    transition: all 0.3s ease-in;
+    background-color: #B0F1FF;
+    box-shadow: 0px 0px 30px #81E9FF;
+}
+
+
+/* Home-Btn-Nav */
+
+.nav-bar__btn--home {
+    transition: all 0.3s ease-out;
+    color: #FF4C00;
+}
+
+.nav-bar__btn--home-active {
+    color: #FF4C00;
+    background-color: #FFC1A7;
+    box-shadow: 0px 0px 30px #FFB292;
+}
+
+.nav-bar__btn--home:hover {
+    transition: all 0.3s ease-in;
+    background-color: #FFC1A7;
+    box-shadow: 0px 0px 30px #FFB292;
+}
+
+
+/* Top-Btn-Nav */
+
+.nav-bar__btn--top {
+    transition: all 0.3s ease-out;
+    color: #FF11A0;
+}
+
+.nav-bar__btn--top-active {
+    color: #FF11A0;
+    background-color: #FFBEE5;
+    box-shadow: 0px 0px 30px #FFA4DA;
+}
+
+.nav-bar__btn--top:hover {
+    transition: all 0.3s ease-in;
+    background-color: #FFBEE5;
+    box-shadow: 0px 0px 30px #FFA4DA;
+}
+
+
+/* Shop-Btn-Nav */
+
+.nav-bar__btn--shop {
+    transition: all 0.3s ease-out;
+    color: #9E00FF;
+}
+
+.nav-bar__btn--shop-active {
+    color: #9E00FF;
+    background-color: #DFABFF;
+    box-shadow: 0px 0px 30px #CF82FF;
+}
+
+.nav-bar__btn--shop:hover {
+    transition: all 0.3s ease-in;
+    background-color: #DFABFF;
+    box-shadow: 0px 0px 30px #CF82FF;
+}
+
+
+/* Setting-Btn-Nav */
+
+.nav-bar__btn--setting {
+    transition: all 0.3s ease-out;
+    color: #AE8700;
+    align-items: center;
+}
+
+.nav-bar__btn--setting-active {
+    color: #AE8700;
+    background-color: #FFE68B;
+    box-shadow: 0px 0px 30px #FFE179;
+}
+
+.nav-bar__btn--setting:hover {
+    transition: all 0.3s ease-in;
+    background-color: #FFE68B;
+    box-shadow: 0px 0px 30px #FFE179;
+}
